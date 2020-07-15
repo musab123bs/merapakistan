@@ -1,0 +1,33 @@
+@media screen and (max-width:425px){
+    html body .header .menu ul li a {
+        font-size: 0.62rem;
+    }
+    html body .header .logo {
+        width: 40%;
+        font-size: 0.51rem;
+    }
+    html body .header .menu {
+        width: 50%;
+        margin: 0 17px 0 0;
+    }
+    html body main .banner-para {
+        font-size: 1.38rem;
+        padding-top: 50px;
+    }
+    html body main .banner-heading {
+        font-size: 1.135rem;
+    }
+    html body main .buttons {
+        width: 60%;
+    }
+    html body main .btn-1 {
+        padding: 9px 10px;
+        font-size: 0.47rem;
+        width: 40%;
+    }
+    html body main .btn-2 {
+        padding: 9px 10px;
+        font-size: 0.47rem;
+        width: 40%;
+    }
+}

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,423;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,423;1,500;1,600;1,700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+
+}
+html {}
+html body {
+    background-image: linear-gradient(rgba(4, 6, 3, 0.58),rgba(5, 41, 3, 0.49)),url(../img/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+}
+html body .header {
+    display: flex;
+    justify-content: space-between;
+    height: 9vh;
+    background-color: #307b0a;
+    align-items: center;
+}
+html body .header .logo {
+    width: 25%;
+    text-align: center;
+    color: white;
+}
+html body .header .menu {
+    width: 40%;
+}
+html body .header .menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+html body .header .menu ul li {}
+html body .header .menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    width: 25%;
+}
+html body main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 91vh;
+    width: 100%;
+    flex-direction: column;
+}
+html body main .banner-para {
+    font-size: 2.38rem;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: white;
+    text-shadow: 1px 2px 3px rgba(34, 214, 12, 0.64);
+}
+html body main .banner-heading {
+    margin-top: 20px;
+    font-size: 3rem;
+    font-weight: 500;
+    text-shadow: 1px 2px 5px hsla(105, 78%, 43%, 0.25);
+    color: rgb(18, 113, 18);
+}
+html body main .banner-sub-para {
+    margin-top: 18px;
+    margin-bottom: 13px;
+    color: #fff6d8;
+}
+html body main .btn-1 {
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 30px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    width: 30%;
+    text-align: center;
+    float: left;
+    color: #000;
+}
+html body main .btn-2 {
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 30px;
+    background-color: #307b0a;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    display: block;
+    width: 30%;
+    text-align: center;
+    float: right;
+}
+html body main .buttons {
+    width: 30%;
+}
+html body main .banner-heading .change_content::after {
+    content: "";
+    animation: changetext 10s infinite linear;
+    text-shadow: 1px 2px 4px;
+    padding-left: 16px;
+    text-transform: uppercase;
+}
+@keyframes changetext {
+    0%{
+        content: "KARACHI";
+        color: #91a011;
+    }
+    25%{
+        content: "Islamabad";
+        color: #2196e1;
+    }
+    50%{
+        content: "Lahore";
+        color: hsl(330, 89%, 17%);
+    }
+    75%{
+        content: "Peshawar";
+        color: #cecece;
+    }
+    100%{
+        content: "Quetta";
+        color: hsla(105, 78%, 43%, 0.25);
+    }
+}
